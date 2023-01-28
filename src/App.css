@@ -1,0 +1,33 @@
+.App {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.ImagePort{
+  width: 100px;
+  height: 100px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calendar{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.tareas-lista-principal {
+  min-height: 500px;
+  text-align: center;
+  background-color: rgb(165, 225, 239);
+  padding: 25px;
+  margin: 50px;
+  border-radius: 26px;
+}

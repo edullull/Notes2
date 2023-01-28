@@ -1,0 +1,14 @@
+.dias-semana {
+    width: 100%;
+    min-height: 65px;
+    background-color: #9f9fd3;
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
