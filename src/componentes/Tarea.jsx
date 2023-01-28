@@ -1,6 +1,5 @@
 import React from "react";
 import '../hojas-de-estilos/Tarea.css'
-import { AiOutlineClose } from "react-icons/ai";
 
 
 function Tarea({id, texto, completada, completarTarea, eliminarTarea} ){
@@ -16,7 +15,7 @@ function Tarea({id, texto, completada, completarTarea, eliminarTarea} ){
             <div 
                 className='tarea-icono'
                 onClick={ () => eliminarTarea(id)}>
-                <AiOutlineClose />
+        
             </div>
         </div>
     )
